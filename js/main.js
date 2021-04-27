@@ -90,6 +90,8 @@ promotionToogleBtn.addEventListener('click', function(){
     }
 });
 
+
+
 /**
  * 부유하는 요소 관리
  */
@@ -127,4 +129,3 @@ spyEls.forEach(function(spyEl){
      .setClassToggle(spyEl, 'show') 
      .addTo(new ScrollMagic.Controller()); 
 });
-
